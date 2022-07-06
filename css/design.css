@@ -1,0 +1,650 @@
+/* 
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Roboto', sans-serif;
+*/
+*, *::before, *::after 
+{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+}
+html 
+{
+       font-family: 'Poppins', sans-serif;
+       font-size: 10px;
+}
+body 
+{
+       width: 100%;
+       /* background-color: white; */
+}
+p 
+{
+       font-size: 1.6rem;
+       line-height: 1.6;
+}
+section 
+{
+       padding: 5rem 0;
+}
+  .container 
+{
+       width: 100%;
+       max-width: 120rem;
+       margin: 0 auto;
+       padding: 0 2.5rem;
+       background-color: red;
+} 
+
+/* VARIABLES */
+
+::root 
+{
+       --white: #fff;
+       --black: #000;
+}
+
+/* utility classes */
+.u-mb-small 
+{
+       margin-bottom: 1.6rem;
+}
+.u-mb-medium 
+{
+       margin-bottom: 3rem;
+}
+.u-mb-large 
+{
+       margin-bottom: 5rem;
+}
+
+
+/************** HEADER SECTION ********************/
+/************** HEADER SECTION ********************/
+/************** HEADER SECTION ********************/
+/************** HEADER SECTION ********************/
+
+ header 
+ {
+       width: 100%;
+       background-color: rebeccapurple;
+       height: 7.5rem;
+       padding: 2.5rem 0;
+       position: relative;
+ }
+ .logo 
+ {
+       background-color: black;
+       height: 3.5rem;
+       margin-right: 3rem;
+ }
+ nav 
+ {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+ }
+ .nav-ul 
+ {
+       display: flex;
+       flex-grow: 1;
+       margin-right: 2rem;
+       background-color: aquamarine;
+ }
+ .nav-ul li 
+ {
+       list-style-type: none;
+       padding: 0 .5rem;
+ }
+ .nav-ul li a,
+ .login a:first-child 
+ {
+       text-decoration: none;
+       font-size: 1.4rem;
+       color: #fff;
+ }
+ .login 
+ {
+       background-color: grey;
+ }
+ .login a:first-child 
+ {
+       margin-right: 1.5rem;
+ }
+ .nav-ul li a:hover,
+ .login a:hover:first-child 
+ {
+       color: var(--black);
+ }
+ .u-login 
+ {
+       display: none; 
+ }
+ .btn 
+ {
+       font-size: 1.4rem;
+       font-weight: 500;
+       text-decoration: none;
+       background-color: aqua;
+       padding: 1rem 2rem;
+       color: var(--black);
+       border-radius: 5rem;
+       opacity: 1;
+       outline: none;
+       transition: all .3s;
+       margin-right: 5px;
+ }
+ .btn:hover 
+ {
+       opacity: .8;
+ }
+
+ /***************  INTRO  SECTION ************/
+ /***************  INTRO  SECTION ************/
+ /***************  INTRO  SECTION ************/
+ /***************  INTRO  SECTION ************/
+
+ .intro-section 
+ {
+       background-color: grey;
+       padding-bottom: 10rem;
+       overflow: hidden;
+ }
+ .intro 
+ {
+       display: flex;
+       justify-content: space-between;
+ }
+ .intro-text 
+ {
+       width: 45%;
+       background-color: violet;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+ }
+ .intro-text h1 
+ {
+       font-size: 4.5rem;
+       font-weight: 700;
+       line-height: 6rem;
+ }
+ .intro-text h1 span 
+ {
+       display: block;
+       color: orange;
+       background-color: red;
+ }
+ .btn-large 
+ {
+       font-size: 1.6rem;
+       font-weight: 700;
+       padding: 1.2rem 3.5rem;
+ }
+
+ .intro-image 
+ {
+       width: 45%;
+       background-color: violet;
+ }
+
+
+
+
+ /**************** INPUT ABOUT AND FEATURES SECTION **********************/
+ /**************** INPUT ABOUT AND FEATURES SECTION **********************/
+ /**************** INPUT ABOUT AND FEATURES SECTION **********************/
+ /**************** INPUT ABOUT AND FEATURES SECTION **********************/
+ 
+  .input-section 
+  {
+       background-color: rgb(234, 228, 228);     
+  }
+  .input-box 
+  {
+       background-color: rebeccapurple;
+       max-width: 100rem;
+       margin: 0 auto;
+       padding: 5rem;
+       border-radius: .5rem;
+       transform: translateY(-80%);
+       background-image: url(../img/bg-boost-desktop.svg);
+       border: 1px solid transparent;
+  }
+  .input-box form 
+  {
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       background-color: black;
+}
+  .input-box form input 
+  {
+       padding: 1.5rem;
+       font-size: 1.5rem;
+       font-family: 'Poppins', sans-serif;
+       width: 80%;
+       border: transparent;
+       border-radius: .5rem;
+       outline: none;
+       margin-right: 2rem;
+  }
+  .input-box form .link-btn 
+  {
+       font-size: 1.6rem;
+       font-weight: 700;
+       color: white;
+       width: 20%;
+       background-color: aqua;
+       border: transparent;
+       outline: none;
+       cursor: pointer;
+       border-radius: .5rem;
+       padding: 1.5rem;
+}
+
+ /* ABOUT SECTION */
+.about 
+{
+       background-color: orange;
+       text-align: center;
+       width: 50%;
+       margin: 0 auto;
+}
+.about h2 
+{
+       font-size: 4rem;
+       font-family: 700;
+       font-family: 'Poppins', sans-serif;
+       color: red;
+}
+
+  /* FEATURES SECTION */
+
+  .feature-section 
+  {
+       background-color: sienna;
+  }
+  .feature 
+  { 
+       display: flex;
+       justify-content: space-between;
+       align-items: flex-start;
+       position: relative;
+  }
+  .feature-box 
+  {
+       background-color: white;
+       padding: 7rem 3rem 3rem 3rem;
+       position: relative;
+       border-radius: .5rem;
+       z-index: 1;
+     
+  }
+  .feature-box h3 
+  {
+       font-size: 2rem;
+       font-weight: 700;
+       color: rebeccapurple;
+       padding-bottom: 2.5rem;
+  }
+  .box-2 
+  {
+       margin-top: 4%;
+  }
+  .box-3 
+  {
+       margin-top: 8%;
+  }
+  .feature-box:not(:last-child)
+  {
+       margin-right: 2.5rem;
+  }
+  .feature-image 
+  {
+       background-color: rebeccapurple;
+       display: inline-block;
+       padding: 1.5rem;
+       border: 1px solid transparent;
+       border-radius: 50%;
+       position: absolute;
+       top: -3.5rem;
+       left: 2.5rem;
+  }
+  .feature::after 
+  {
+      z-index: 0;
+      content: "";
+      width: 50%;
+      height: .5rem;
+      background-color: rebeccapurple;
+      top: 50%;
+      position: absolute;
+      left: 25%;
+      /* z-index: 1; */
+  }
+
+
+
+  /***************** BOOST SECTION **********************/
+  /***************** BOOST SECTION **********************/
+  /***************** BOOST SECTION **********************/
+  /***************** BOOST SECTION **********************/
+
+  .boost-section 
+  {
+       background-color: rebeccapurple;
+       width: 100%;
+       position: relative;
+       z-index: 0;
+       /* margin-bottom: 5rem; */
+  }
+  .boost-section::after 
+  {
+       background-image: url(../img/bg-boost-desktop.svg);
+       background-repeat: no-repeat;
+       background-position: center;
+       position: absolute;
+       content: "";
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       z-index: -1;
+  }
+  .boost 
+  {
+       display: block;
+       text-align: center;
+       z-index: 11;
+  }
+  .boost h2 
+  {
+       font-size: 4rem;
+       font-weight: 700;
+       color: white;
+       font-family: 'Popins', sans-serif;
+  }
+
+  /***************** FOOTER SECTION  *********************/
+  /***************** FOOTER SECTION  *********************/
+  /***************** FOOTER SECTION  *********************/
+  /***************** FOOTER SECTION  *********************/
+
+
+   /* footer section 1 */
+   .footer-section 
+   {
+       background-color: rgb(23, 6, 40);
+       padding: 5rem 0;
+   }
+   .footer 
+   {
+       display: grid;
+       /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+       grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+       row-gap: 2rem;
+   }
+   .footer-menu p 
+   {
+       color: white;
+   }
+   .footer-links 
+   {
+       display: flex;
+       flex-direction: column;
+       list-style: none;
+   }
+   .footer-links li 
+   {
+       padding-bottom: 1rem;
+       
+   }
+   .footer-links li a 
+   {
+       text-decoration: none;
+       color: white;
+   }
+   .footer-icons img 
+   {
+       padding: 0 2rem .5rem 0;
+   }
+
+ 
+  /* footer section 2 */
+
+  /* .footer-section 
+  {
+       width: 100%;
+       background-color: black;
+       padding: 4rem;
+  }
+  .footer 
+  {
+       display: flex;
+       justify-content: space-between;
+
+  }
+  .footer p 
+  {
+       color: gray;
+       margin-bottom: 1rem;
+  }
+  .footer ul li 
+  {
+       list-style: none;
+       margin-bottom: 1rem;
+  }
+  .footer ul li a 
+  {
+       color: white;
+       text-decoration: none;
+       font-size: 1.3rem;
+       font-family: 'Roboto', sans-serif;
+  }
+  .footer .icons-footer .icons-link 
+  {
+       display: flex;
+  }
+  .footer .icons-footer .icons-link li 
+  {
+       margin-right: 2rem;
+  }
+  .footer .icons-footer .icons-link li a 
+  {
+       font-size: 3rem;
+  }
+ */
+
+
+
+ /***************  MEDIA QUERY ******************/
+ /***************  MEDIA QUERY ******************/
+ /***************  MEDIA QUERY ******************/
+ /***************  MEDIA QUERY ******************/
+
+ /* TABLET SIZED DEVICES */
+  @media screen and (max-width: 985px)
+  {
+      .intro-text 
+      {
+       width: 50%;
+      }
+      .intro-text h1 
+      {
+       font-size: 3.5rem;
+       line-height: 4.5rem;
+      }
+
+      /* ABOUT SECTION */
+      .about 
+      {
+           width: 100%;
+           padding-bottom: 3rem;
+      }
+      .about h2 
+      {
+       font-size: 3rem;
+      }
+
+      /* FEATURE SECTION */
+      .feature-box 
+      {
+       padding: 7rem 2rem 3rem;
+      }
+      .feature-box:not(:last-child)
+      {
+           margin-right: 1.5rem;
+      }
+
+      .footer .icons-footer .icons-link li a 
+      {
+           font-size: 2rem;
+      }
+
+  } 
+
+
+
+ /* MOBILE RESPONSIVE QUERIES  */
+ @media screen and (max-width:600px)
+ {
+       header 
+       {
+              height: 9rem;
+       }
+       .logo 
+       {
+              margin: 0;
+       }
+       .u-login 
+       {
+              display: inline;
+       }
+       .login 
+       {
+              display: none;
+       }
+       nav 
+       {
+              background-color: olivedrab;
+              display: block;
+              text-align: center;
+       }
+       .nav-ul 
+       {
+              justify-content: center;
+       }
+
+       /* INTRO SECTION */
+
+       .intro 
+       {
+              flex-direction: column-reverse;
+       }
+       .intro-image 
+       {
+              padding-bottom: 4rem;
+              width: 100%;
+       }
+       .intro-text 
+       {
+              display: block;
+              width: 100%;
+              text-align: center;
+              padding: 4rem 0;
+       }
+
+       /* INPUT SECTION */
+
+       .input-box form input 
+       {
+         width: 70%;
+       }
+      .input-box form .link-btn 
+      {
+        width: 30%;
+      }
+
+       /* FEATURE SECTION */
+       .feature 
+       {
+              flex-direction: column;
+              text-align: center;
+       }
+       .feature::after 
+       {
+              left:50%;
+              top: 20%;
+              height: 60rem;
+              width: .5rem;
+       }
+       .feature-box 
+       {
+              margin-bottom: 10rem;
+       }
+       .feature-box:not(:last-child)
+       {
+              margin-right: 0;
+       }
+       .feature-image 
+       {
+            left: 50%;
+            transform: translateX(-50%);
+       }
+       .box-2,
+       .box-3 
+       {
+              margin-top: 0;
+       }
+      
+       /* FOOTER SECTION 1 */
+       .footer 
+       {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+       }
+
+        /* footer section 2 */
+
+       /* .footer 
+       {
+              flex-direction: column;
+       }
+       .footer div 
+       {
+              margin-bottom: 2rem;
+       } */
+}
+
+
+/******************** ANIMATION ****************************/
+/******************** ANIMATION ****************************/
+/******************** ANIMATION ****************************/
+/******************** ANIMATION ****************************/
+/******************** ANIMATION ****************************/
+
+@keyframes slideUP 
+{
+   0% 
+   {
+       transform: translateY(100%);
+   }
+   50% 
+   {
+       transform: translateY(50%);
+   }
+   100% 
+   {
+       transform: translateY(0);
+   }
+}
+
+.sliderUP 
+{
+       animation: slideUP .8s linear;
+}
